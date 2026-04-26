@@ -134,7 +134,7 @@ scoop install opencode
 
 操作步骤：
 
-1. 按 [创建 API Key 教程](https://docs.nextoken.online/nextoken/create-key) 生成 API Key。
+1. 按 [创建 API Key 教程](https://docs.nextoken.online/nexttoken/create-key) 生成 API Key。
 2. 按 [CC-Switch](https://docs.nextoken.online/agents/cc-switch) 完成统一供应商配置。
 3. 配置完成后，重启 `OpenCode`。
 

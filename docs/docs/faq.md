@@ -58,7 +58,7 @@
 
 ### 收费方式是什么?
 
-按 token 计费,输入与输出分开。详见 [计费说明](/nextoken/billing)。
+按 token 计费,输入与输出分开。详见 [计费说明](/nexttoken/billing)。
 
 ### 余额从哪里看?
 

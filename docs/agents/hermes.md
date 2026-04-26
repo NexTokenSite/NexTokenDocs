@@ -14,7 +14,7 @@ curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scri
 
 ## 接入 NextToken
 
-1. 按 [创建 API Key 教程](https://docs.nextoken.online/nextoken/create-key) 生成一个 API Key。
+1. 按 [创建 API Key 教程](https://docs.nextoken.online/nexttoken/create-key) 生成一个 API Key。
 2. 编辑 `~/.hermes/config.yaml`，写入或确认以下配置：
 
    ```yaml
@@ -64,5 +64,5 @@ Base URL 末尾必须包含 `/v1`,完整路径是 `https://www.nextoken.online/v
 
 ## 更多相关内容
 
-- [创建 API Key](https://docs.nextoken.online/nextoken/create-key)
-- [计费说明](https://docs.nextoken.online/nextoken/billing)
+- [创建 API Key](https://docs.nextoken.online/nexttoken/create-key)
+- [计费说明](https://docs.nextoken.online/nexttoken/billing)
