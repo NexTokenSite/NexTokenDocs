@@ -4,13 +4,13 @@
 
 ### NextToken 兼容哪些协议?
 
-主入口 `https://www.nexttoken.online/v1` 是 OpenAI 兼容协议。`/v1/chat/completions`、`/v1/completions`、`/v1/embeddings`、`/v1/models` 等端点行为与 OpenAI 官方一致,任何 OpenAI SDK 改 `base_url` 即可使用。
+主入口 `https://www.nextoken.online/v1` 是 OpenAI 兼容协议。`/v1/chat/completions`、`/v1/completions`、`/v1/embeddings`、`/v1/models` 等端点行为与 OpenAI 官方一致,任何 OpenAI SDK 改 `base_url` 即可使用。
 
 部分上游服务(如 Anthropic 原生协议)会有专属端点,具体在对应客户端文档页中说明。
 
 ### 我已有的代码能直接迁过来吗?
 
-可以。把客户端的 `base_url` / `baseURL` 改成 `https://www.nexttoken.online/v1`,`api_key` 换成在我们后台新建的 `sk-xxxx`,其余不动。
+可以。把客户端的 `base_url` / `baseURL` 改成 `https://www.nextoken.online/v1`,`api_key` 换成在我们后台新建的 `sk-xxxx`,其余不动。
 
 ### 支持流式输出吗?
 
@@ -70,13 +70,13 @@
 
 ## 想用 NextToken生图，该用哪个客户端？
 
-- **桌面端**：推荐使用 [Cherry Studio](https://docs.nexttoken.online/chatbot/cherry-studio)。界面简洁，配置方便，接入 NextToken 后在模型列表中选择支持生图的模型即可直接使用。
-- **Android 手机端**：推荐使用 [RikkaHub](https://docs.nexttoken.online/chatbot/rikkahub)。接入 NextToken 并导入支持图像生成的模型后，将模型类型设为"图像"，再从侧边栏底部进入"生图"，选择模型即可开始生成。
+- **桌面端**：推荐使用 [Cherry Studio](https://docs.nextoken.online/chatbot/cherry-studio)。界面简洁，配置方便，接入 NextToken 后在模型列表中选择支持生图的模型即可直接使用。
+- **Android 手机端**：推荐使用 [RikkaHub](https://docs.nextoken.online/chatbot/rikkahub)。接入 NextToken 并导入支持图像生成的模型后，将模型类型设为"图像"，再从侧边栏底部进入"生图"，选择模型即可开始生成。
 
 **快速开始：**
 
-- **Cherry Studio**：按 [Cherry Studio 使用指南](https://docs.nexttoken.online/chatbot/cherry-studio) 完成安装并接入 NextToken，在模型列表中选择支持生图的模型（如 `gpt-image-2` 等），在对话界面发送提示词即可生成图片。
-- **RikkaHub**：按 [RikkaHub 使用指南](https://docs.nexttoken.online/chatbot/rikkahub) 完成接入，参考其中的"使用生图"章节完成配置。
+- **Cherry Studio**：按 [Cherry Studio 使用指南](https://docs.nextoken.online/chatbot/cherry-studio) 完成安装并接入 NextToken，在模型列表中选择支持生图的模型（如 `gpt-image-2` 等），在对话界面发送提示词即可生成图片。
+- **RikkaHub**：按 [RikkaHub 使用指南](https://docs.nextoken.online/chatbot/rikkahub) 完成接入，参考其中的"使用生图"章节完成配置。
 
 
 

@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 // VitePress 站点配置
-// 默认部署到 GitHub Pages + 自定义子域名 docs.nexttoken.online,根路径 base = '/'。
+// 默认部署到 GitHub Pages + 自定义子域名 docs.nextoken.online,根路径 base = '/'。
 // 保留 DOCS_BASE 环境变量覆盖能力,以便日后部署到子路径(如 user.github.io/repo/)时复用同一份源。
 const docsBase = process.env.DOCS_BASE ?? '/'
 

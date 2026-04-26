@@ -1,5 +1,5 @@
 # 把 VitePress 文档站构建并部署到 GitHub Pages
-# 自定义域名:docs.nexttoken.online(由 docs/public/CNAME 控制)
+# 自定义域名:docs.nextoken.online(由 docs/public/CNAME 控制)
 name: Deploy Docs Site
 
 on:

@@ -15,7 +15,7 @@ RikkaHub 目前仅支持 Android，**不支持 iOS**。
 
 RikkaHub 支持以 OpenAI 兼容方式接入 NextToken。
 
-1. 按 [创建 API Key 教程](https://docs.nexttoken.online/nexttoken/create-key) 生成一个 API Key。
+1. 按 [创建 API Key 教程](https://docs.nextoken.online/nexttoken/create-key) 生成一个 API Key。
 
 2. 打开 `RikkaHub`，点击左侧**侧边栏**，进入**设置**。
 
@@ -25,7 +25,7 @@ RikkaHub 支持以 OpenAI 兼容方式接入 NextToken。
 
    ```text
    提供商类型: OpenAI
-   Base URL: https://nexttoken.online/v1
+   Base URL: https://nextoken.online/v1
    API Key: 你的 nexttoken API Key
    ```
 
