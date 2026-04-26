@@ -121,13 +121,11 @@ AppImage 文件集成了所有必要的依赖，适用于大多数 Linux 发行�
    API Key: 你的 NextToken API Key
    ```
 
-   <!-- TODO: 补充示例界面截图至 docs/public/images/cc-switch/manual-provider-fields.png
    示例界面如下图所示：
 
    <div style="text-align: center;">
      <img src="/images/cc-switch/manual-provider-fields.png" alt="CC-Switch 手动填写统一供应商字段示意图" />
    </div>
-   -->
 
 4. 保存配置，`CC-Switch` 会自动为所有相关的 Agent 启用该供应商。
 <!--
