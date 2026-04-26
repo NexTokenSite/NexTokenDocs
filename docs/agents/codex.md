@@ -71,7 +71,7 @@
 
   操作步骤：
 
-    1. 按 [创建 API Key 教程](https://docs.nextoken.online/nexttoken/create-key) 生成 API Key。
+    1. 按 [创建 API Key 教程](https://docs.nextoken.online/nextoken/create-key) 生成 API Key。
     2. 按 [CC-Switch](https://docs.nextoken.online/agents/cc-switch) 完成统一供应商配置。
     3. 配置完成后，重启 `Codex` 或 `Codex App`。
 
@@ -87,7 +87,7 @@
 
 ### 切换 Provider 没生效
 
-确认 `config.toml` 顶部的 `model_provider = "nexttoken"` 与下方 `[model_providers.nexttoken]` 的名字一致。Codex 是按这个键名匹配的。
+确认 `config.toml` 顶部的 `model_provider = "nextoken"` 与下方 `[model_providers.nextoken]` 的名字一致。Codex 是按这个键名匹配的。
 
   </DocsTab>
 
@@ -109,7 +109,7 @@
   在配置目录中创建或编辑 `config.toml`，确保以下内容位于文件前部：
 
   ```toml
-  model_provider = "nexttoken"
+  model_provider = "nextoken"
   model = "gpt-5.4"
   review_model = "gpt-5.4"
   model_reasoning_effort = "xhigh"
@@ -119,8 +119,8 @@
   model_context_window = 1000000
   model_auto_compact_token_limit = 900000
 
-  [model_providers.nexttoken]
-  name = "nexttoken"
+  [model_providers.nextoken]
+  name = "nextoken"
   base_url = "https://www.nextoken.online/v1"
   wire_api = "responses"
   requires_openai_auth = true

@@ -16,7 +16,7 @@ const sources = [
   // docs/ 子目录下的两个文档
   { type: 'dir', rel: 'docs' },
   // 各分组目录下的所有 .md
-  { type: 'dir', rel: 'nexttoken' },
+  { type: 'dir', rel: 'nextoken' },
   { type: 'dir', rel: 'agents' },
   { type: 'dir', rel: 'chatbot' },
   { type: 'dir', rel: 'tos' },

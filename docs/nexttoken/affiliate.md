@@ -18,7 +18,7 @@
 ## 相关入口
 
 - [个人资料](https://www.nextoken.online/profile) — 查看和管理邀请链接
-- [计费说明](https://docs.nextoken.online/nexttoken/billing) — 了解计费方式和购买选项
+- [计费说明](https://docs.nextoken.online/nextoken/billing) — 了解计费方式和购买选项
 
 ## 注意事项
 

@@ -91,7 +91,7 @@
 
 - [模型广场](https://www.nextoken.online/models) — 查看所有模型的价格
 - [充值/订阅](https://www.nextoken.online/purchase) — 购买推理积分
-- [邀请返利](https://docs.nextoken.online/nexttoken/affiliate) — 邀请好友获得返利
+- [邀请返利](https://docs.nextoken.online/nextoken/affiliate) — 邀请好友获得返利
 
 ## 注意
 

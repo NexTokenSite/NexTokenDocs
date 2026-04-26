@@ -13,7 +13,7 @@
 │   ├── public/CNAME          自定义域名 docs.nextoken.online
 │   ├── index.md              首页
 │   ├── docs/                 快速开始 + FAQ
-│   ├── nexttoken/            平台功能(Key、计费、邀请返利)
+│   ├── nextoken/            平台功能(Key、计费、邀请返利)
 │   ├── agents/               编码代理(Claude Code、Codex、CC-Switch、Hermes、OpenCode)
 │   ├── chatbot/              聊天客户端(Cherry Studio、RikkaHub)
 │   └── tos/                  使用政策

@@ -41,9 +41,9 @@ export default defineConfig({
       {
         text: 'NextToken',
         items: [
-          { text: '创建 API Key', link: '/nexttoken/create-key' },
-          { text: '计费说明', link: '/nexttoken/billing' },
-          { text: '邀请返利', link: '/nexttoken/affiliate' },
+          { text: '创建 API Key', link: '/nextoken/create-key' },
+          { text: '计费说明', link: '/nextoken/billing' },
+          { text: '邀请返利', link: '/nextoken/affiliate' },
         ],
       },
       {
