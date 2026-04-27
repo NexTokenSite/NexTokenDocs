@@ -4,7 +4,7 @@
 
 ## 如何找到邀请链接
 
-1. 前往 [个人资料页面](https://www.nextoken.online/profile)。
+1. 前往 [邀请返利页面](https://www.nextoken.online/affiliate)。
 2. 在页面底部找到邀请返利的相关链接和邀请码。
 3. 复制邀请链接或邀请码分享给好友。
 
