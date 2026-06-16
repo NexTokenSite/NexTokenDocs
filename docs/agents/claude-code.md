@@ -1,6 +1,6 @@
 # Claude Code 使用指南
 
-`Claude Code` 是 Anthropic 推出的 AI 编程助手，支持代码生成、修改和审查。
+> `Claude Code` 是 Anthropic 推出的 AI 编程助手，支持代码生成、修改和审查。
 
 ## 安装
 

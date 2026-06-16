@@ -1,6 +1,6 @@
 # OpenCode 使用指南
 
-[OpenCode](https://opencode.ai) 是一款开源的终端编码代理。它支持配置自定义的 OpenAI 兼容端点,可以直接接入 NextToken。
+> [OpenCode](https://opencode.ai) 是一款开源的终端编码代理。它支持配置自定义的 OpenAI 兼容端点,可以直接接入 NextToken。
 
 ## 配置文件
 

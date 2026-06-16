@@ -1,6 +1,6 @@
 # Hermes 使用指南
 
-`Hermes` 是一款 AI Agent 工具，支持通过自定义 OpenAI-compatible 接口接入 `NextToken`。
+> `Hermes` 是一款 AI Agent 工具，支持通过自定义 OpenAI-compatible 接口接入 `NextToken`。
 
 ## 安装
 

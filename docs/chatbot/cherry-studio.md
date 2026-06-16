@@ -1,6 +1,6 @@
 # Cherry Studio
 
-[Cherry Studio](https://cherry-ai.com) 是一款跨平台的 AI 客户端,支持 macOS / Windows / Linux,通过 OpenAI 兼容协议可以直接接入 NextToken。
+> [Cherry Studio](https://cherry-ai.com) 是一款跨平台的 AI 客户端,支持 macOS / Windows / Linux,通过 OpenAI 兼容协议可以直接接入 NextToken。
 
 ## 安装
 
