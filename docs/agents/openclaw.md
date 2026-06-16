@@ -4,7 +4,7 @@
 
 ## 一、需要的两条信息
 
-- **Base URL**：`https://www.nextoken.online
+- **Base URL**：`https://www.nextoken.online`
 - **API Key**：`你的Key`
 
 OpenClaw 走 Anthropic 协议，所以 **Base URL 不要带 `/v1`**。

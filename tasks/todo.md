@@ -23,6 +23,22 @@
 - Remote: `origin` -> `git@github-NextTokenSite:NextTokenSite/NextTokenDocs.git`
 - Existing staged changes are documentation files under `docs/`.
 
+## OpenClaw Navigation Fix
+
+- [x] Restate goal + acceptance criteria
+  - Goal: add the new OpenClaw documentation page to the Agents sidebar navigation.
+  - Acceptance criteria: `/agents/openclaw` appears under Agents, Markdown renders correctly, and the docs build succeeds.
+- [x] Locate existing implementation / patterns
+  - Sidebar entries are configured in `docs/.vitepress/config.ts`.
+- [x] Implement smallest safe slice
+  - Added `OpenClaw` to the Agents sidebar and fixed a missing Markdown backtick in `docs/agents/openclaw.md`.
+- [x] Run verification (lint/tests/build/manual repro)
+  - Ran `npm run build`; VitePress build completed successfully and `scripts/copy-md.mjs` copied 18 Markdown files to dist.
+  - `pnpm build` was blocked by pnpm 11 ignored build script approval for `esbuild@0.21.5`; this is a local package-manager policy issue, not a source build failure.
+- [x] Summarize changes + verification story
+- [x] Record lessons (if any)
+  - Added `tasks/lessons.md` with the missing-sidebar failure mode and prevention rule.
+
 ## Results
 
 - Prepared documentation changes and this task record for a single commit.

@@ -53,6 +53,7 @@ export default defineConfig({
           { text: 'Claude Code', link: '/agents/claude-code' },
           { text: 'Codex', link: '/agents/codex' },
           { text: 'Hermes', link: '/agents/hermes' },
+          { text: 'OpenClaw', link: '/agents/openclaw' },
           { text: 'OpenCode', link: '/agents/opencode' },
         ],
       },
