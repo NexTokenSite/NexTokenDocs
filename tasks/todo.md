@@ -8,8 +8,12 @@
 - [x] Implement smallest safe slice
 - [x] Add/adjust tests
   - No tests added; this task only uploads existing documentation changes.
-- [ ] Run verification (lint/tests/build/manual repro)
-- [ ] Summarize changes + verification story
+- [x] Run verification (lint/tests/build/manual repro)
+  - Ran `git diff --cached --check` before commit; no whitespace errors were reported.
+  - Ran `git push origin main`; the first attempt failed because the SSH host alias was wrong, then succeeded after correcting the remote alias.
+  - Updated `origin` to the canonical remote URL reported by GitHub.
+  - Ran `git status --short --branch`, `git remote -v`, and `git log -1 --oneline --decorate` after push.
+- [x] Summarize changes + verification story
 - [x] Record lessons (if any)
   - No correction or postmortem occurred, so no lesson entry was added.
 
@@ -22,4 +26,5 @@
 ## Results
 
 - Prepared documentation changes and this task record for a single commit.
-- Verification to perform before final report: `git diff --cached --check`, `git push`, and final `git status --short --branch`.
+- Pushed commit `b098d44` to `origin/main`.
+- Updated `origin` from `git@github-NexTokenSite:NextTokenSite/NextTokenDocs.git` to `git@github.com:NexTokenSite/NexTokenDocs.git` after GitHub reported the repository moved.
